@@ -172,6 +172,7 @@ body {
 /* Experience and additonal info styles */
 .experiences {
     flex: 1 1 30%;
+    margin-right: 40px;
 }
 
 .experiences__header {
@@ -220,6 +221,7 @@ body {
 
 .additional-info {
     flex: 1 1 30%;
+    margin-right: 40px;
 }
 
 .additional-info__education {
@@ -261,4 +263,35 @@ body {
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+/* Contacts block */
+.contacts {
+    flex: 1 1 30%;
+}
+
+.contacts__header {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.contacts__list {
+    color: var(--secondary-text-color);
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+.contacts__network-list {
+    color: var(--secondary-text-color);
+    padding-left: 20px;
+}
+
+.contacts__list a,
+.contacts__network-list a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.contacts__list a:hover,
+.contacts__network-list a:hover {
+    color: #000;
 }
