@@ -135,7 +135,7 @@ body {
 
 .intro {
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
 }
 
 .intro__icon-wrapper {
@@ -171,8 +171,7 @@ body {
 }
 /* Experience and additonal info styles */
 .experiences {
-    flex: 1 1 60%;
-    margin-right: 50px;
+    flex: 1 1 30%;
 }
 
 .experiences__header {
@@ -220,7 +219,7 @@ body {
 }
 
 .additional-info {
-    flex: 1 1 40%;
+    flex: 1 1 30%;
 }
 
 .additional-info__education {
